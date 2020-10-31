@@ -1,0 +1,14 @@
+<div class="{{ wrapper_classes }}" style="{{ wrapper_styles }}">
+<div class="container mx-auto flex flex-wrap">
+  <div class="w-full md:w-1/2">
+    {% block first %}
+      First content area
+    {% endblock %}
+  </div>
+  <div class="w-full md:w-1/2">
+    {% block second %}
+      Second content area
+    {% endblock %}
+  </div>
+</div>
+</div>

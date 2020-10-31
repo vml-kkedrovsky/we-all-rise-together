@@ -1,0 +1,15 @@
+{% set wrapper_classes = "py-32 bg-cover bg-center" %}
+{% set wrapper_styles = "background-image: url(/images/background-3.jpg);" %}
+{% extends "_includes/two-column-component.njk" %}
+
+{% block first %}
+<div class="flex justify-center"><img src="/images/we-all-rise-together-stacked.png" alt="We All Rise Together logo" /></div>
+{% endblock %}
+
+{% block second %}
+<h1 class="text-6xl uppercase text-white">How We Got Here</h1>
+<div class="w-1/5 mt-4 mb-8 border-4 border-wart-yellow"></div>
+<p class="text-2xl leading-10 text-white">
+CoVid-19 was a sea change that impacted the globe. In America, the impact is acutely endured by Black and Brown communities. Recognizing this discrepancy, a group of leaders across the advertising industry came together on April 23, 2020 to address this “trisis”: the deadly three-way culmination of CoVid-19, economic recession, and racial injustice. To counteract this harsh reality, we have sought to create an ecosystem that can instigate actions to restore our community. Through shared passion and commitment, we came together– after hours–to talk, exchanging ideas, and brainstorming ways to bring about lasting change.
+</p>
+{% endblock %}
