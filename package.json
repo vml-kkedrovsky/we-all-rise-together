@@ -7,9 +7,10 @@
     "dev:eleventy": "eleventy --serve",
     "dev:tailwind": "postcss styles.css --o _tmp/styles.css --watch",
     "prod:eleventy": "ELEVENTY_PRODUCTION=true eleventy",
-    "prod:tailewind": "NODE_ENV=production postcss styles.css --o _site/styles.css",
+    "prod:tailwind": "NODE_ENV=production postcss styles.css --o _site/styles.css",
     "clean": "rimraf _site",
-    "dev": "run-p dev:tailwind dev:eleventy"
+    "dev": "run-p dev:tailwind dev:eleventy",
+    "prod": "run-p prod:tailwind prod:eleventy"
   },
   "keywords": [],
   "author": "",
