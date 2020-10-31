@@ -7,7 +7,15 @@
 p,
 ul,
 ol {
-  @apply font-sans text-lg;
+  @apply font-sans;
+}
+
+@screen sm {
+  p,
+  ul,
+  ol {
+    @apply font-sans text-lg;
+  }
 }
 
 h1,
