@@ -5,7 +5,7 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addPassthroughCopy({ "./_tmp/styles.css": "./styles.css" })
 
-  eleventyConfig.addPassthroughCopy( "images")
+  eleventyConfig.addPassthroughCopy( "src/images")
 
   eleventyConfig.addShortcode("version", function () {
     return String(Date.now())
