@@ -4,7 +4,7 @@ module.exports = {
     purgeLayersByDefault: true,
   },
   purge: [
-    './**/*.njk'
+    './src/**/*.njk'
   ],
   theme: {
     fontFamily: {
