@@ -23,6 +23,20 @@
     {% block head %}{% endblock %}
   </head>
   <body>
+    {#
+    <div class="bg-black">
+      <div class="container flex justify-between p-4 mx-auto">
+        <a href="/"><img class="h-20" src="/images/we-all-rise-together-stacked.png" alt="Home" /></a>
+        <nav class="flex items-center">
+          <ul class="flex space-x-4 sm:space-x-8">
+            <li><a class="text-xl tracking-wider text-white font-heading hover:underline" href="/health">Health</a></li>
+            <li><a class="text-xl tracking-wider text-white font-heading hover:underline" href="/mobility">Mobility</a></li>
+            <li><a class="text-xl tracking-wider text-white font-heading hover:underline" href="/wealth">Wealth</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    #}
 
     {% block content %}
       {{ content | safe }}
