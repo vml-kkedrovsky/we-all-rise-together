@@ -9,9 +9,8 @@
     "prod:eleventy": "ELEVENTY_PRODUCTION=true eleventy",
     "prod:tailwind": "NODE_ENV=production postcss styles.css --o _tmp/styles.css",
     "clean": "rimraf _site",
-    "clean_components": "rimraf _site/**/_content",
     "dev": "run-p dev:tailwind dev:eleventy",
-    "prod": "run-s clean prod:tailwind prod:eleventy clean_components"
+    "prod": "run-s clean prod:tailwind prod:eleventy"
   },
   "keywords": [],
   "author": "",
