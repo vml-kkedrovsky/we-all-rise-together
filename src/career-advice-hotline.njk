@@ -1,0 +1,98 @@
+{% extends "src/_includes/default.njk" %}
+
+{% block title %}Mobility | We All Rise Together{% endblock %}
+
+{% block content %}
+
+<div class="h-16 bg-black">
+  <div class="container flex items-center justify-end p-4 mx-auto">
+    <a class="text-xl tracking-wider text-white uppercase font-heading hover:underline" href="/">Home</a>
+  </div>
+</div>
+
+<div class="relative py-16 bg-center bg-cover" style="background-image: url(/images/background-3.jpg);">
+  <div class="absolute inset-0 bg-gray-900 bg-opacity-50"></div>
+  <div class="container relative px-4 mx-auto">
+    <div class="flex items-center justify-center">
+      <img class="h-24 pr-16" src="/images/we-all-rise-together-stacked.png" />
+      <h2 class="text-6xl text-center text-white uppercase md:text-8xl font-weight-700">
+        Career Advice Hotline
+      </h2>
+    </div>
+  </div>
+</div>
+
+<div class="py-8 sm:py-16 bg-wart-teal">
+  <div class="container px-4 mx-auto">
+    <p class="pb-8 text-3xl text-black sm:text-4xl font-weight-700">
+      This year has been extremely challenging for everyone.
+    </p>
+    <p class="pb-8 text-lg text-black">
+      The pandemic has forced many of us into stressful working dynamics, while the economic downturn has caused widespread layoffs and furloughs. But all hope is not lost. As we look towards 2021, we want to ensure that all of us have the right tools to succeed professionally. This is why this volunteer-led Career Advice Hotline was created.
+    </p>
+    <p class="pb-8 text-2xl text-black font-weight-700">
+      If you’re a person of color looking for a job, interested in upskilling, or worried about where your career is going, this resource is for you.
+    </p>
+    <p class="text-lg text-black">
+      Sign up today to connect with a marketing leader who can provide insight and direction for your next move.
+    </p>
+  </div>
+</div>
+<div class="container flex flex-wrap px-4 mx-auto">
+  <div class="flex flex-col w-full xl:w-1/2">
+    <div class="relative flex items-center justify-center h-32 xl:flex-none">
+      <div class="absolute top-0 bottom-0 w-screen xl:right-0 xl:w-screen-50 bg-wart-brown"></div>
+      <h3 class="relative px-4 text-4xl text-center text-white">How it works</h3>
+    </div>
+    <div class="relative flex justify-around xl:flex-grow">
+      <div class="absolute top-0 bottom-0 w-screen xl:right-0 xl:w-screen-50 bg-wart-brown-lighter"></div>
+      <div class="relative w-full pt-16 pb-8 text-lg leading-8 text-black xl:pr-32">
+        <div class="flex items-center pb-8">
+          <img class="w-16" src="/images/number-bullet-1.png" alt="Numbered bullet point one" />
+          <span class="pl-4 md:pl-8">Sign up for a 30- or 60-minute session using this form.</span>
+        </div>
+        <div class="flex items-center pb-8">
+          <img class="w-16" src="/images/number-bullet-2.png" alt="Numbered bullet point two" />
+          <span class="pl-4 md:pl-8">You’ll be paired with a marketing leader and receive a calendar invite.</span>
+        </div>
+        <div class="flex items-center pb-8">
+          <img class="w-16" src="/images/number-bullet-3.png" alt="Numbered bullet point three" />
+          <span class="pl-4 md:pl-8">Your 1-to-1 session will be conducted via Zoom with a volunteer advisor.</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="flex flex-col w-full xl:w-1/2">
+    <div class="relative flex items-center justify-center h-32">
+      <div class="absolute top-0 bottom-0 w-screen xl:left-0 xl:w-screen-50 bg-wart-orange"></div>
+      <h3 class="relative px-4 text-4xl text-center text-white">Get the most out of the session</h3>
+    </div>
+    <div class="relative flex justify-around xl:flex-grow">
+      <div class="absolute top-0 bottom-0 w-screen xl:left-0 xl:w-screen-50 bg-wart-yellow"></div>
+      <div class="relative w-full pt-16 pb-8 text-lg leading-8 text-black xl:pl-32">
+        <div class="flex items-center pb-8">
+          <img class="w-12" src="/images/orange-black-bullet.png" alt="Bullet point" />
+          <span class="pl-4 md:pl-8">Have a pointed question or specific issue you want to discuss.</span>
+        </div>
+        <div class="flex items-center pb-8">
+          <img class="w-12" src="/images/orange-black-bullet.png" alt="Bullet point" />
+          <span class="pl-4 md:pl-8">It’s a safe space &mdash; be transparent and open to feedback.</span>
+        </div>
+        <div class="flex items-center pb-8">
+          <img class="w-12" src="/images/orange-black-bullet.png" alt="Bullet point" />
+          <span class="pl-4 md:pl-8">Ask follow-up questions for clarity.</span>
+        </div>
+        <div class="flex items-center pb-8">
+          <img class="w-12" src="/images/orange-black-bullet.png" alt="Bullet point" />
+          <span class="pl-4 md:pl-8">Be respectful of your advisor’s time.</span>
+        </div>
+        <div class="flex items-center pb-8">
+          <img class="w-12" src="/images/orange-black-bullet.png" alt="Bullet point" />
+          <span class="pl-4 md:pl-8">Thank your advisor and ask if you can connect, if needed.</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% endblock %}

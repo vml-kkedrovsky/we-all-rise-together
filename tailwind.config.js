@@ -15,6 +15,7 @@ module.exports = {
     extend: {
       colors: {
         'wart-brown': '#874E38',
+        'wart-brown-lighter': '#9D7768',
         'wart-orange': '#EF3F22',
         'wart-yellow': '#E5C144',
         'wart-teal': '#4FB5B5'
@@ -22,6 +23,9 @@ module.exports = {
       fontSize: {
         '7xl': '5rem',
         '8xl': '6rem'
+      },
+      spacing: {
+        'screen-50': '50vw'
       }
     },
   },
